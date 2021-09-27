@@ -1,24 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><!--VERSION DE HTML DEL DOCUMENTO HTML5-->
+<html lang="en"><!--ETIQUETA DE APERTURA-->
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"><!--Configurar el documento-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASG Seguros | Cotizá</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-    <header>
-        <img src="imagenes asg/ASG LOGO.png" alt="ASG Seguros" class="imagenhead">
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="cotizar.html">Cotizá</a></li>
-            </ul>
-        </nav>
+<body> <!--contenido visual de la web-->
+    <header class="header"><!--cabecera-->
+            <div class="contenedor">
+                <img src="imagenes asg/LOGOASG.svg" alt="ASG Seguros" class="imagenhead">
+                <nav class="menunavegacion"><!--navegación-->
+                    <ul class="listanavegacion">
+                        <li><a class="enlacemenu" href="index.html">Inicio</a></li>
+                        <li><a class="enlacemenu" href="nosotros.html">Nosotros</a></li>
+                        <li><a class="enlacemenu" href="cotizar.html">Cotizá</a></li>
+                    </ul>
+                </nav>
+            </div>
     </header>
     <main>
+        <section class="separacion"></section>
         <section>
             <h2>Solicitá una cotización para tu vehículo</h2> <!--Lo ideal sería que se despliegue-->
             <fieldset>
@@ -109,35 +115,32 @@
     </main>
     
 
-    <footer> <!--Pie de pagina-->
-        <table>
-            <tr>
-              <td>
+    <footer class="footer"> <!--Pie de pagina-->
+        <section class="contenedor">
+            <div>
+                <p class="titulofooter">Navegación</p>
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="cotizar.html">Cotizá</a></li>
+                    <li><a class="enlacefooter" href="index.html">Inicio</a></li>
+                    <li><a class="enlacefooter" href="nosotros.html">Nosotros</a></li>
+                    <li><a class="enlacefooter" href="cotizar.html">Cotizá</a></li>
                 </ul>
-              </td>
-              <td rowspan="2">
-                <p>San Martín 895 - Local 4, Comodoro Rivadavia, Chubut (CP 9000)</p> 
+                <p class="titulofooter">Redes sociales</p>
+                <ul>
+                    <li><a class="enlacefooter" href="https://facebook.com/ASG.Arias" target="_blank">Facebook</a></li>
+                    <li><a class="enlacefooter" href="https://wa.me/message/D3AZOHDN63HLJ1" target="_blank">Whatsapp</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="domicilio">San Martín 895 - Local 4, Comodoro Rivadavia, Chubut (CP 9000)</p> 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d826.0603286926282!2d-67.48772441136568!3d-45.86081151053135!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6cbf78a23d271725!2sASG%20Seguros!5e0!3m2!1ses!2sar!4v1631547298875!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                  <ul>
-                    <li><a href="https://facebook.com/ASG.Arias" target="_blank">Facebook</a></li>
-                    <li><a href="https://wa.me/message/D3AZOHDN63HLJ1" target="_blank">Comunicate por Whatsapp</a></li>
-                    </ul>
-                </td>
-            </tr>
-                <tr>
-                    <th colspan="2" scope="rowgroup">
-                        <h3 class="subtituloh3">ASG Seguros | Ramón Pablo Arias PAS M.N. 53063   -   <a href="https://www.argentina.gob.ar/superintendencia-de-seguros" target="_blank">Superintendencia-de Seguros de la Nación</a></h3>
-                    </th>
-                </tr>
-          </table>
-    </footer>
-</body>
-</html>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div class="divfooter"><p class="p-footer">ASG Seguros | Ramón Pablo Arias PAS M.N. 53063   -   <a href="https://www.argentina.gob.ar/superintendencia-de-seguros" target="_blank">Superintendencia-de Seguros de la Nación</a></p></div>
+                <div class="divfooter"><p class="p-footer">Iconos diseñados por <a href="https://www.flaticon.es/autores/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></p></div> 
+            </div>
+                </section>
+        </footer>
+    </body>
+    </html><!--ETIQUETA DE CIERRE-->
