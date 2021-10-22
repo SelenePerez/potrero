@@ -47,7 +47,6 @@ footer{
 .enlace-footer{
     color: black;
 }
-
 a{
     text-decoration: none;
 }
@@ -161,6 +160,7 @@ a:hover {
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 20px;
+    max-width: 75%;
 }
 
 
@@ -183,6 +183,18 @@ a:hover {
     background-color: #4041B7;
     color: #D6D6D6;
 }
+.nosotros{
+   justify-content: space-between;
+   display: flex;
+   flex-direction: column;
+}
+
+.algo{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media (max-width: 768px) {
     .imagenhead{
