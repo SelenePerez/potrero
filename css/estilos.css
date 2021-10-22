@@ -19,7 +19,7 @@ li{
     list-style: none;
     }
 
-main{
+.main{
     background-color: transparent;
     text-align: justify;
     margin: auto;
@@ -197,7 +197,7 @@ a:hover {
 
 
 @media (max-width: 768px) {
-    main{
+    .main{
         max-width: 100%;
     }
     .imagenhead{
