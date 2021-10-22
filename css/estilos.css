@@ -189,7 +189,7 @@ a:hover {
    flex-direction: column;
 }
 
-.algo{
+.caja-nosotros{
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -216,6 +216,9 @@ a:hover {
     .imagenseccion1{
         height: 150px;
         align-items: center;
+    }
+    .caja-nosotros{
+        flex-direction: column;
     }
 
 }
