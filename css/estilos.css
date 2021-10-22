@@ -197,6 +197,9 @@ a:hover {
 
 
 @media (max-width: 768px) {
+    main{
+        max-width: 100%;
+    }
     .imagenhead{
         height: 32px;
     }
