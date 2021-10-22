@@ -223,5 +223,8 @@ a:hover {
     .caja-nosotros{
         flex-direction: column;
     }
+    .caja-texto{
+        max-width: 100%;
+    }
 
 }
