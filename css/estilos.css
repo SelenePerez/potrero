@@ -91,6 +91,15 @@ a:hover {
     align-items: center;
 }
 
+.contenedor-secciones {
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .menunavegacion{
     min-width: 50%;
 }
@@ -111,6 +120,7 @@ a:hover {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .imagenseccion1{
     height: 250px;
 }
@@ -118,6 +128,7 @@ a:hover {
 .titulosec1{
     margin-bottom: 6px;
     font-size: 20px;
+    margin-top: 10px;
 }
 .parrafosec1{
     margin-bottom: 15px;
@@ -195,7 +206,6 @@ a:hover {
     justify-content: space-between;
 }
 
-
 @media (max-width: 768px) {
     .main{
         max-width: 100%;
@@ -213,6 +223,9 @@ a:hover {
     .contenedor{
         flex-direction: column;
     }
+    .contenedor-secciones{
+        flex-direction: column-reverse;
+    }
     .titulosec1{
         font-size: 16px;
     }
@@ -225,6 +238,7 @@ a:hover {
     }
     .caja-texto{
         max-width: 100%;
+        margin: 0 auto;
     }
 
 }
