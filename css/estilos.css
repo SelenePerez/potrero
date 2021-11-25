@@ -62,7 +62,7 @@ a:hover {
 
 }
 .imagenhead{
-    height: 40px;
+    height: 30px;
 }
 
 .iframe{
@@ -71,10 +71,8 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.header{
+.header-propio{
     background-color: #AFD9FC;
-    padding-top: 10px;
-    padding-bottom: 10px;
     width: 100%;
     box-shadow: 0 3px 7px rgba(203, 206, 209, 0.589);
     position: fixed;
@@ -112,7 +110,9 @@ a:hover {
 
 .enlacemenu{
     color: black;
-    font-size: 22px;
+    font-size: 16px;
+    display: block;
+    padding: 0.5rem 1rem;
 }
 
 .seccion1{
@@ -174,7 +174,10 @@ a:hover {
     max-width: 75%;
 }
 
-
+.poner_algo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .imagen-fijada{
     display: flex;;
     background-image: url(../imagenes-asg/Deal.jpeg);
