@@ -52,7 +52,7 @@ a{
 }
 
 a:hover {
-    color: #009a99;
+    color: #00009fc5;
     cursor: pointer;
   }
 
@@ -143,6 +143,18 @@ a:hover {
     border-radius: 20px;
     font-weight: 900;
 }
+
+.boton-claro{
+    display: inline-block;
+    background-color: #AFD9FC;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 900;
+    border: none;
+}
+
 .banner-nosotros{
     display: inline-block;
     margin-left: 10px;
@@ -197,6 +209,12 @@ a:hover {
     background-color: #4041B7;
     color: #D6D6D6;
 }
+
+.boton-claro:hover{
+    background-color: #A9CEEC;
+    color: #202020;
+}
+
 .nosotros{
    justify-content: space-between;
    display: flex;
