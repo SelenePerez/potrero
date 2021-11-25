@@ -4,24 +4,38 @@
     <meta charset="UTF-8"><!--Configurar el documento-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASG Seguros | Inicio</title>
+    <title>ASG Seguros | Nosotros</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body> <!--contenido visual de la web-->
-    <header class="header"><!--cabecera-->
-            <div class="contenedor">
-                <img src="imagenes-asg/LOGOASG.svg" alt="ASG Seguros" class="imagenhead">
-                <nav class="menunavegacion"><!--navegación-->
-                    <ul class="listanavegacion">
-                        <li><a class="enlacemenu" href="index.html">Inicio</a></li>
-                        <li><a class="enlacemenu" href="nosotros.html">Nosotros</a></li>
-                        <li><a class="enlacemenu" href="cotizar.html">Cotizá</a></li>
+    <header class="header-propio"><!--cabecera-->
+        <div class="contenedor">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="imagenes-asg/LOGOASG.svg" alt="ASG Seguros" class="imagenhead"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="enlacemenu" href="index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="enlacemenu" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="enlacemenu" href="cotizar.html">Cotizá</a>
+                      </li>
                     </ul>
-                </nav>
-            </div>
+                  </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <main class="main">
             <section class="seccion1">
@@ -37,6 +51,7 @@
                     <img src="imagenes-asg/family-couch.svg" alt="Familia Segura" class="imagenseccion1">
                 </div>
             </div>
+            
         </section>
         <section class="seccion1">
             <div class="contenedor">
@@ -105,8 +120,8 @@
     </section>
         <div>
             <div class=""><p class="info-footer">ASG Seguros | Ramón Pablo Arias PAS M.N. 53063   -   <a href="https://www.argentina.gob.ar/superintendencia-de-seguros" target="_blank">Superintendencia-de Seguros de la Nación</a></p></div>
-            <div class=""><p class="info-footer">Iconos diseñados por <a href="https://www.flaticon.es/autores/icongeek26" title="Icongeek26"  target="_blank">Icongeek26</a> from <a href="https://www.flaticon.es/" title="Flaticon"  target="_blank">www.flaticon.es</a></p></div> 
         </div>
     </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html><!--ETIQUETA DE CIERRE-->
