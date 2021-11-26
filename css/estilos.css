@@ -154,6 +154,13 @@ a:hover {
     font-weight: 900;
     border: none;
 }
+.circulo{
+    display: inline-block;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
 
 .banner-nosotros{
     display: inline-block;
