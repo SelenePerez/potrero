@@ -42,102 +42,129 @@
     </header>
     <main class="main">
         <section class="seccion1">
-            <div class="contenedor-secciones">
-            <div><h2 class="titulosec1">Solicitá una cotización para tu vehículo</h2> <!--Lo ideal sería que se despliegue-->
-            <fieldset class="fieldset">
-                <form action="" method="post" enctype="">
-                    <fieldset class="fieldset">
-                        <legend>Datos de contacto</legend>
-                        <div>
-                        <label for="nombre">Nombre:</label>
-                            <input type="text" name="nombre"  id="nombre" placeholder="Ingresa tu nombre" id="nombre">
-                        </div>
-                        <div>
-                            <label for="apellido">Apellido:</label>
-                            <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
-                        </div>
-                        <div>
-                            <label for="celular">Celular:</label>
-                            <input type="number" name="celular" id="celular" placeholder="Ingresa el código de área">
-                            <input type="number" name="celular" id="celular" placeholder="Ingresa el número sin 15">
-                        </div>
-                        <div>
-                            <label for="correo">Correo electrónico:</label>
-                            <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo electrónico">
-                        </div>
-                    </fieldset>
-                    <fieldset class="fieldset">
-                        <legend>Datos del vehículo</legend>
-                        <div>
-                            <label for="marca">Marca:</label>
-                            <input type="text" name="marca"  id="marca" placeholder="Ingresa la marca del vehículo">
-                        </div>
-                        <div>
-                            <label for="version">Versión:</label>
-                            <input type="text" name="version" id="version" placeholder="Ingresá la version como figura en la cédula">
-                        </div>
-                        <div>
-                            <label for="anio">Año:</label>
-                            <input type="number" name="numero" id="Año" placeholder="Año del vehículo">
-                        </div>
-                        <div>
-                            <label for="localidad">Localidad:</label>
-                            <input type="text" name="localidad" id="localidad" placeholder="Ingresá tu localidad">
-                        </div>
-                        <div>
-                            <label for="cp">Código Postal:</label>
-                            <input type="number" name="cp" id="cp" placeholder="Ingresá tu CP">
-                        </div>
-                        <div>
-                            <label for="correo">Correo electrónico:</label>
-                            <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo electrónico">
-                        </div>
-                    </fieldset>          
-                    <input class="boton" type="submit" value="Enviar">
-                </form>
-            </fieldset>
-        </div>
-        <img src="imagenes-asg/058-car insurance.svg" alt="Seguro de Auto/Moto" class="imagenseccion1">
-    </div>
-        
-        </section>      
-        
-        <section class="seccion1">
-            <div class="contenedor-secciones">
-                <div>
-            <h2 class="titulosec1">Solicitá una cotización de ART</h2> <!--Lo ideal sería que se despliegue-->
-            <P>Para cotizar tu ART necesitamos que nos envíes en .pdf el formulario 931 de AFIP</P>
-            <form action="" method="post" enctype="multipart/form-data" target="_blank">
-                <fieldset class="fieldset">
-                    <legend>Datos de contacto</legend>
-                    <div>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre"  id="nombre" placeholder="Ingresa tu nombre" id="nombre">
+            <div><h2 class="titulosec1">Solicitá una cotización para tu vehículo</h2>
+                <p>Completá el formulario y nos pondremos en contacto para ofrecerte la mejor cotización</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <form>
+                            <fieldset>
+                                <fieldset>
+                                    <legend class="titulo-form">Datos de contacto</legend>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Nombre</label>
+                                            <input type="text" class="form-control" placeholder="Ingrese su Nombre">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Apellido</label>
+                                            <input type="text" class="form-control" placeholder="Ingrese su Apellido">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Celular o teléfono</label>
+                                            <input type="number" class="form-control" placeholder="Ingrese un número telefónico">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Correo electrónico</label>
+                                            <input type="email" class="form-control" placeholder="Ingrese un correo electrónico">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">DNI</label>
+                                            <input type="number" class="form-control" placeholder="Ingrese su DNI">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Localidad</label>
+                                            <input type="text" class="form-control" placeholder="Ingrese su localidad o Código Postal">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend class="titulo-form">Datos del vehículo</legend>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label for="form-label">Marca</label>
+                                            <input type="text" class="form-control" placeholder="Marca del vehículo">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="form-label">Versión</label>
+                                            <input type="text" class="form-control" placeholder="Ingrese la versión como figura en el título o la cédula">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Año</label>
+                                            <input type="number" class="form-control" placeholder="Año del vehículo">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Localidad</label>
+                                            <input type="text" class="form-control" placeholder="Ingrese su localidad o Código Postal">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <input class="boton" type="submit" value="Enviar">
+                            </fieldset>
+                        </form>
                     </div>
-                    <div>
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+                    <div class="col-12 col-md-4">
+                        <div class="contenedor">
+                            <img src="imagenes-asg/058-car insurance.svg" alt="Seguro de Auto/Moto" class="imagenseccion1">
+                        </div>
                     </div>
-                    <div>
-                        <label for="celular">Celular:</label>
-                        <input type="number" name="celular" id="celular" placeholder="Ingresa el código de área">
-                        <input type="number" name="celular" id="celular" placeholder="Ingresa el número sin 15">
-                    </div>
-                    <div>
-                        <label for="correo">Correo electrónico:</label>
-                        <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo electrónico">
-                    </div>
-                    <div>
-                        Sube un archivo:
-                        <input class="boton" type="file" name="archivosubido">                
-                        <input class="boton" type="submit" value="Enviar">
-                    </div>
-                </fieldset> 
-            </form>
-        </div>
-        <img src="imagenes-asg/061-worker.svg" alt="Seguro de Auto/Moto" class="imagenseccion1">
-    </div>
+                </div>
+            </div>
         </section>
+        <section class="seccion1">
+            <div><h2 class="titulosec1">Solicitá una cotización de ART</h2>
+                <p>Para cotizar tu ART necesitamos que nos envíes en .pdf el formulario 931 de AFIP</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <form>
+                            <fieldset>
+                                <fieldset>
+                                    <legend class="titulo-form">Datos de contacto</legend>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Nombre</label>
+                                            <input type="text" class="form-control" placeholder="Ingrese su Nombre">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Apellido</label>
+                                            <input type="text" class="form-control" placeholder="Ingrese su Apellido">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Celular o teléfono</label>
+                                            <input type="number" class="form-control" placeholder="Ingrese un número telefónico">
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <label for="form-label">Correo electrónico</label>
+                                            <input type="email" class="form-control" placeholder="Ingrese un correo electrónico">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div class="input-group mb-3">
+                                    <input type="file" class="form-control">
+                                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                                </div>
+                                <input class="boton" type="submit" value="Enviar">
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="contenedor">
+                            <img src="imagenes-asg/061-worker.svg" alt="ART" class="imagenseccion1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     
 
@@ -149,7 +176,8 @@
                 <ul>
                     <li><a class="enlace-footer" href="index.html">Inicio</a></li>
                     <li><a class="enlace-footer" href="nosotros.html">Nosotros</a></li>
-                    <li><a class="enlace-footer" href="cotizar.html">Cotizá</a></li>
+                    <li><a class="enlace-footer" href="cotizar.html">Solicitar una cotización</a></li>
+                    <li><a class="enlace-footer" href="coberturas.html">Coberturas</a></li>
                 </ul>
                 <p class="texto-footer">Redes sociales</p>
                 <ul>
