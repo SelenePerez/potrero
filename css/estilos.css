@@ -206,7 +206,8 @@ a:hover {
     word-wrap: break-word;
     background-color: transparent;
     background-clip: border-box;
-    border: 1px solid #00009fc5;
+    /*border: 1px solid #00009fc5;*/
+    border: 1px solid #AFD9FC;
     border-radius: 30px;
     margin: 10px;
   }
