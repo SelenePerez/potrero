@@ -206,10 +206,10 @@ a:hover {
     word-wrap: break-word;
     background-color: transparent;
     background-clip: border-box;
-    /*border: 1px solid #00009fc5;*/
     border: 1px solid #AFD9FC;
     border-radius: 30px;
     margin: 10px;
+    box-shadow:  0 2px 5px rgba(56, 65, 75, 0.2);
   }
 
 .imagen-fijada{
