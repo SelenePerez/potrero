@@ -143,18 +143,10 @@ a:hover {
     border-radius: 20px;
     font-weight: 900;
     border: none;
+    margin: 5px;
 }
 
-.boton-claro{
-    display: inline-block;
-    background-color: #AFD9FC;
-    text-decoration: none;
-    color: black;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: 900;
-    border: none;
-}
+
 .circulo{
     display: inline-block;
     padding: 5px;
@@ -194,10 +186,6 @@ a:hover {
     max-width: 75%;
 }
 
-.poner_algo{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 .tarjeta {
     position: relative;
     display: flex;
@@ -210,6 +198,7 @@ a:hover {
     border-radius: 30px;
     margin: 10px;
     box-shadow:  0 2px 5px rgba(56, 65, 75, 0.2);
+    padding: 10px;
   }
 
 .imagen-fijada{
@@ -230,11 +219,6 @@ a:hover {
 .boton:hover{
     background-color: #4041B7;
     color: #D6D6D6;
-}
-
-.boton-claro:hover{
-    background-color: #A9CEEC;
-    color: #202020;
 }
 
 .nosotros{
